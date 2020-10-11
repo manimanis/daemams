@@ -1,0 +1,102 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:02.910
+In this video, we'll be taking a look at
+
+2
+00:00:02.910 --> 00:00:06.224
+the different data types that exists in the world around us.
+
+3
+00:00:06.224 --> 00:00:07.830
+When sitting at coffee shops,
+
+4
+00:00:07.830 --> 00:00:09.914
+I enjoy watching the dogs pass.
+
+5
+00:00:09.914 --> 00:00:12.814
+I often wonder, how many crossed my path?
+
+6
+00:00:12.814 --> 00:00:16.530
+I wonder if more pass on weekdays or weekends.
+
+7
+00:00:16.530 --> 00:00:20.045
+Maybe the number differs from Mondays to Tuesdays.
+
+8
+00:00:20.045 --> 00:00:23.170
+I also pay attention to the breeds of the dogs.
+
+9
+00:00:23.170 --> 00:00:26.950
+I wonder if more collies stopped by on Monday than on Wednesday.
+
+10
+00:00:26.949 --> 00:00:29.054
+I wonder what's the most common breed.
+
+11
+00:00:29.054 --> 00:00:32.625
+Is that breed the most common at all coffee shops?
+
+12
+00:00:32.625 --> 00:00:35.070
+If I walked across the street to my favorite breed,
+
+13
+00:00:35.070 --> 00:00:37.259
+would the most common breed change?
+
+14
+00:00:37.259 --> 00:00:41.714
+This introduces two main data types: quantitative data,
+
+15
+00:00:41.715 --> 00:00:43.200
+like the number of dogs,
+
+16
+00:00:43.200 --> 00:00:45.870
+and categorical data, like the breed.
+
+17
+00:00:45.869 --> 00:00:47.759
+Quantitative data takes on
+
+18
+00:00:47.759 --> 00:00:52.034
+numeric values that allow us to perform mathematical operations.
+
+19
+00:00:52.034 --> 00:00:53.754
+In the previous example,
+
+20
+00:00:53.755 --> 00:00:56.050
+we saw this with the number of dogs.
+
+21
+00:00:56.049 --> 00:00:58.094
+If I see five dogs on Monday,
+
+22
+00:00:58.094 --> 00:01:00.009
+and six dogs on Tuesday,
+
+23
+00:01:00.009 --> 00:01:03.479
+I've seen a total of 11 dogs so far this week.
+
+24
+00:01:03.479 --> 00:01:09.989
+Alternatively, categorical data frequently are used to label a group or set of items.
+
+25
+00:01:09.989 --> 00:01:12.059
+We saw this with the breeds of the dogs.
+

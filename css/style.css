@@ -1,0 +1,9 @@
+i.video-icon {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-image: url(../imgs/video-icon.svg);
+  background-size: 100% 100%;
+  margin: 0 8px;
+  vertical-align: middle;
+}

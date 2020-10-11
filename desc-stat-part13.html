@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data types</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Data Analysis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="menu-list" class="navbar-nav mr-auto"></ul>
+    </div>
+  </nav>
+</header>
+<main class="container">
+  <h1 class="text-primary text-center my-2">Descriptive Statistics - Exercises</h1>
+
+  <section>
+    <h3>Exercise 1</h3>
+    <p>Which of the below are measures of center (select all that apply)?</p>
+    <p><span class="badge badge-secondary">Mean</span> - <span
+            class="badge badge-secondary">Standard deviation</span> - <span
+            class="badge badge-secondary">Variance</span> - <span class="badge badge-secondary">Median</span> -
+      <span
+              class="badge badge-secondary">Inter-quartile Range</span> - <span
+              class="badge badge-secondary">Mode</span> - <span
+              class="badge badge-secondary">Range</span> - <span class="badge badge-secondary">Maximum</span></p>
+  </section>
+
+  <section>
+    <h3>Exercise 2</h3>
+    <p>Calculate the mean for this values: 5, 8, 15, 7, 10, 22, 3, 1, 15</p>
+    <p>Find the median of the data</p>
+  </section>
+
+  <section>
+    <h3>Exercise 3</h3>
+    <p>If we have the data: 5, 8, 15, 7, 10, 22, 3, 1, 15, 2</p>
+    <p>What is the mean and the median?</p>
+  </section>
+
+  <section>
+    <h3>Exercise 4</h3>
+    <p>We want to summarize the number of dogs our friends have into a single number. We will use the measures of
+      center for this problem. Ashley has 1 dog, Steve has 1 dog, Jeff has 2 dogs, Kylie has 3 dogs, and Lisa has
+      8 dogs.</p>
+    <p>There is no best measure of center so we need to try all three to see what makes sense.</p>
+    <p>What is the mean, median, and mode for the number of dogs our friends have?</p>
+  </section>
+
+  <section>
+    <h3>Exercise 5</h3>
+    <p>Which of the following sentences are correct with regards to our measures of center?</p>
+    <ul>
+      <li>The mode is the middle number in the dataset when numbers are rank ordered</li>
+      <li>The median is the middle number in the dataset when numbers are rank ordered</li>
+      <li>The mean is always the best measure of center for any dataset</li>
+      <li>The mean is always less than the median</li>
+      <li>The median is always the best measure of center for any dataset</li>
+      <li>The mode is always the best measure of center for any dataset</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 6</h3>
+    <p>If we have the data: 5, 8, 15, 7, 10, 22, 3, 1, 15</p>
+    <p>What is the mode?</p>
+  </section>
+
+  <section>
+    <h3>Exercise 7</h3>
+    <p>If we have this datasets: 8, 12, 32, 10, 3, 4, 4, 4, 4, 5, 12, 20</p>
+    <table class="table table-striped">
+      <tr>
+        <th>First dataset</th>
+        <td>8</td>
+        <td>12</td>
+        <td>32</td>
+        <td>10</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>5</td>
+        <td>12</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <th>Second dataset</th>
+        <td>5</td>
+        <td>8</td>
+        <td>15</td>
+        <td>7</td>
+        <td>10</td>
+        <td>22</td>
+        <td>3</td>
+        <td>1</td>
+        <td>15</td>
+        <td>10</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <p>What is the mean, the median and the mode?</p>
+  </section>
+
+  <section>
+    <h3>Exercise 8</h3>
+    <p>If we have the data: 1, 5, 10, 3, 8, 12, 4, 1, 2, 8</p>
+    <table class="table table-striped">
+      <tr>
+        <th>First dataset</th>
+        <td>1</td>
+        <td>5</td>
+        <td>10</td>
+        <td>3</td>
+        <td>8</td>
+        <td>12</td>
+        <td>4</td>
+        <td>1</td>
+        <td>2</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <th>Second dataset</th>
+        <td>1</td>
+        <td>5</td>
+        <td>10</td>
+        <td>3</td>
+        <td>8</td>
+        <td>12</td>
+        <td>4</td>
+        <td>2</td>
+        <td>8</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <p>Find the 5 numbers summary: Minimum, Maximum, Q2, Q1 and Q3.</p>
+    <p>Find the range of this data.</p>
+    <p>Find the IQR (Inter-quartile Range)</p>
+  </section>
+
+  <section>
+    <h3>Exercise 9</h3>
+    <p>If we measure the variance associated with our sales in dollars for each month for 3 years, what are the
+      units associated with the variance?</p>
+    <p><span class="badge badge-secondary">Dollars</span> -
+      <span class="badge badge-secondary">Years</span> -
+      <span class="badge badge-secondary">Dollars per Year</span> -
+      <span class="badge badge-secondary">Dollars squared</span> -
+      <span class="badge badge-secondary">Dollars per month</span></p>
+  </section>
+
+  <section>
+    <h3>Exercise 10</h3>
+    <p>For the following set of data provide the value of the <strong>variance</strong> and <strong>standard
+      deviation</strong>.</p>
+    <p>1, 5, 10, 3, 8, 12, 4</p>
+  </section>
+
+  <section>
+    <h3>Exercise 11</h3>
+    <p>Assume d1 and d2 are datasets both measured in the same units. We know that the standard deviation of d1 is 5 and
+      the variance of d2 is 36, which of the following are certainly true. Mark all that apply.</p>
+    <p>Remember the Standard Deviation is the square root of the variance. So if the Variance is 4 the Standard
+      Deviation would be 2</p>
+    <ul>
+      <li>The mean is larger for d1 than for d2</li>
+      <li>The variance for d2 is larger than for d1</li>
+      <li>The standard deviation for d2 is larger than for d1</li>
+      <li>The median for d2 is larger than for d1</li>
+      <li>The range for d2 is larger than for d1</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 12</h3>
+    <p>If a dataset has a standard deviation of zero, which of the following MUST be true?</p>
+    <ul>
+      <li>All the points must be zero</li>
+      <li>All the data points must be the same</li>
+      <li>We made a calculation error because it is not possible for the standard deviation to be zero</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 13</h3>
+    <p>For each of the below: If the statement is true, mark the box next to the statement.</p>
+    <ul>
+      <li>If two datasets have the same variance, they will also have the same standard deviation.</li>
+      <li>If I have two investment options with the same mean return, it really doesn't matter which I invest in</li>
+      <li>If I have two investment options with the same standard deviation associated with the rteurn, they will also
+        have the same possible return
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 14</h3>
+    <p>Consider we have two investment opportunities:</p>
+    <table class="table">
+      <tr>
+        <th>&nbsp;</th>
+        <th>Year 1</th>
+        <th>Year 2</th>
+        <th>Year 3</th>
+        <th>Year 4</th>
+        <th>Year 5</th>
+        <th>Year 6</th>
+      </tr>
+      <tr>
+        <th>Investment 1</th>
+        <td class="text-right">5%</td>
+        <td class="text-right">5%</td>
+        <td class="text-right">5%</td>
+        <td class="text-right">5%</td>
+        <td class="text-right">5%</td>
+        <td class="text-right">5%</td>
+      </tr>
+      <tr>
+        <th>Investment 2</th>
+        <td class="text-right">12%</td>
+        <td class="text-right">-2%</td>
+        <td class="text-right">10%</td>
+        <td class="text-right">0%</td>
+        <td class="text-right">7%</td>
+        <td class="text-right">3%</td>
+      </tr>
+    </table>
+    <p>The returns for 6 consecutive years for each investment are shown above. Use this information to answer the
+      questions below.</p>
+    <ol>
+      <li>What is the mean return for Investment 1?</li>
+      <li>What is the mean return for Investment 2?</li>
+      <li>Using the information above tell which are the correct statements.
+        <ul>
+          <li>The risk associated with investment 1 is lower than the risk associated with investment 2</li>
+          <li>The standard deviation associated with investment 1 is smaller then the standard deviation associated with
+            investment 2
+          </li>
+          <li>Knwoing the mean return amount across all the years for each investment provides us with all information
+            necessary to understand which investment we should choose
+          </li>
+        </ul>
+      </li>
+      <li>Which of the above two investments has the best opportunity of earning more than 7%?</li>
+    </ol>
+  </section>
+
+  <section>
+    <h3>Exercise 15</h3>
+    <p>For the following dataset: 15, 4, 3, 8, 15, 22, 7, 9, 2, 3, 3, 12, 6</p>
+    <p>Determine (n) the count dataset, the median, the mean, the mode, the first quartile and the second quartile.</p>
+    <p>Determine the range, the interquartile range (IQR), the minimum, the maximum, the variance and the standard
+      deviation.</p>
+  </section>
+
+  <section>
+    <h3>Exercise 16</h3>
+    <p>Match the distribution shape with the correct relationship in comparing the mean to the median.</p>
+    <p><span class="badge badge-secondary">Cannot be determined</span> -
+      <span class="badge badge-secondary">Mean is greater than the Median</span> -
+      <span class="badge badge-secondary">Mean is less the Median</span> -
+      <span class="badge badge-secondary">Mean is equal to the Median</span></p>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th>Symmetric</th>
+        <th>Left-skewed</th>
+        <th>Right-skewed</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h3>Exercise 17</h3>
+    <p>Which are the correct statements?</p>
+    <ul>
+      <li>For every dataset the mean equals the median, so every dataset is normally distributed</li>
+      <li>Normally distributed data must have a mean equal to the median</li>
+      <li>All data sets are normally distributed</li>
+      <li>Data must be distributed either right-skewed or left-skewed</li>
+      <li>Histograms and box plots are both used to plot quantitative data. They cannot be used to plot categorical data.</li>
+      <li>A box plot relates directly to the 5 number summary</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 18</h3>
+    <p>In the below image, we have three box-plots. Each box-plot is for a different Iris flower: setosa, versicolor, or virginica. On the y-axis, we are given the sepal length.</p>
+    <p>Notice that virginica has an <strong>outlier</strong> towards the bottom of the plot. Therefore, the <strong>minimum</strong> is not given by the bottom line here; rather, it is provided by this point.</p>
+    <div class="text-center"><img src="imgs/iris-box-plot.png" alt="Irix Box plot"></div>
+    <p>From the image above try to determine which sepal have:</p>
+    <ul>
+      <li>The largest range</li>
+      <li>The smallest inter-quartile range</li>
+      <li>The median approximately 5</li>
+      <li>The third quartile is approximately 6.3</li>
+      <li>An approximately symmetric box plot</li>
+      <li>The largest sepals on average</li>
+    </ul>
+    <p>From the statements below, tell which ones are correct.</p>
+    <ul>
+      <li>All Setosa flowers have a shorter sepal length than Versicolor.</li>
+      <li>All Virginica flowers have larger sepal length than Setosa flowers</li>
+      <li>More than 75% of the Virgnica flowers have a larger sepal length than the largest Setosa flower</li>
+      <li>More than 50% of Setosa flowers have larger sepal length the the shortest Versicolor flower</li>
+      <li>More data was collected on Versicolor flowers than on Virginica flowers</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 19</h3>
+    <p>The following plot will be used to answer the questions below:</p>
+    <p class="text-center"><img class="w-75" src="imgs/histogram-nonnormal.png" alt="Petal length histogram"></p>
+    <ol>
+      <li>What is the name of the above plot?
+        <span class="badge badge-secondary">Bar chart</span> -
+        <span class="badge badge-secondary">Box plot</span> -
+        <span class="badge badge-secondary">Histogram</span> -
+        <span class="badge badge-secondary">Pie chart</span></li>
+      <li>What is the shape of the above distribution?
+        <span class="badge badge-secondary">Right skewed</span> -
+        <span class="badge badge-secondary">Left skewed</span> -
+        <span class="badge badge-secondary">Symmetric</span> -
+        <span class="badge badge-secondary">Bi-modal</span></li>
+    </ol>
+    <p>Use the below image to assist with answering the next three questions.</p>
+    <p class="text-center"><img class="w-75" src="imgs/shapes-and-outliers.png" alt="Box plot"></p>
+    <ol>
+      <li>What is the name of the above plot?
+        <span class="badge badge-secondary">Bar chart</span> -
+        <span class="badge badge-secondary">Box plot</span> -
+        <span class="badge badge-secondary">Histogram</span> -
+        <span class="badge badge-secondary">Pie chart</span></li>
+      <li>What is the shape of the above distribution?
+        <span class="badge badge-secondary">Right skewed</span> -
+        <span class="badge badge-secondary">Left skewed</span> -
+        <span class="badge badge-secondary">Symmetric</span> -
+        <span class="badge badge-secondary">Bi-modal</span></li>
+      <li>Select the right statement from the following ones?
+        <ul>
+          <li>The mean is less than the median</li>
+          <li>The mean is greater then the median</li>
+          <li>The mean is approximately equal to the median</li>
+          <li>It is impossible to tell the relationship between the mean and the median</li>
+        </ul></li>
+    </ol>
+  </section>
+
+  <section>
+    <h3>Exercise 20</h3>
+    <p>Let the histogram on the left be Histogram 1 and the histogram on the right be Histogram 2.</p>
+    <p class="text-center"><img class="w-100" src="imgs/histogram.png" alt="Histogram"></p>
+    <p>Pay attention to the scale of these two graphs. The first is dealing with a lot higher numbers.</p>
+    <p>Correctly match the histograms to the statements that are true about each.</p>
+    <ul>
+      <li>Mean is greater than the median</li>
+      <li>Data has higher variance</li>
+      <li>Binwidth is equal to 0.5</li>
+      <li>The range is approximately 5.5</li>
+      <li>Distribution is left-skewed</li>
+      <li>The mean is approximately equal to the median</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Exercise 21</h3>
+    <p>As the head of public health, you conduct a weekly census across
+      age-groups of the number of cases of flu reported in your area.</p>
+    <p>By hand, compute the mean and the median by week. </p>
+    <p>Which do you think, given these particular data, is the most useful measure of
+      central tendency and why?</p>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th>&nbsp;</th>
+        <th>From 1/12 - 7/12</th>
+        <th>From 8/12 - 15/12</th>
+        <th>From 16/12 - 23/12</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>0-4 years</td>
+        <td>12</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>5-9 years</td>
+        <td>15</td>
+        <td>12</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>10-14 years</td>
+        <td>12</td>
+        <td>24</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>15-19 years</td>
+        <td>38</td>
+        <td>12</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>Mean</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>Median</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h3>Exercise 22</h3>
+    <p>You're one of the outstanding young strategists for Big Boy Airlines
+      and are really curious to compare the number of passengers flying
+      in the mornings versus the evenings out of the Kansas City,
+      Missouri; Washington, DC; and Providence, Rhode Island, hubs for
+      the last 2 days of last week.</p>
+    <p>Compute the descriptive statistics that you will use in tomorrow's presentation to
+      your boss and provide a few sentences of summary.</p>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th>&nbsp;</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <td>To Kansas</td>
+        <td>To Kansas</td>
+        <td>To Washington</td>
+        <td>To Washington</td>
+        <td>To Providence</td>
+        <td>To Providence</td>
+      </tr>
+      <tr>
+        <td>Number of passengers (Morning)</td>
+        <td>258</td>
+        <td>251</td>
+        <td>303</td>
+        <td>312</td>
+        <td>166</td>
+        <td>176</td>
+      </tr>
+      <tr>
+        <td>Number of passengers (Evening)</td>
+        <td>312</td>
+        <td>331</td>
+        <td>321</td>
+        <td>331</td>
+        <td>210</td>
+        <td>274</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/menu.js"></script>
+</main>
+
+</body>
+
+</html>

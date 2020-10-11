@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data types</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Data Analysis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="menu-list" class="navbar-nav mr-auto"></ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="text-primary text-center my-2">Descriptive Statistics</h1>
+
+    <section>
+      <h2>Definitions</h2>
+      <h3>Descriptive statistics</h3>
+      <p>Descriptive statistics is about describing our collected data.</p>
+
+      <h3>Types of measures</h3>
+      <p>When analyzing both discrete and continuous quantitative data, we generally discuss four main aspects:</p>
+      <ul>
+        <li>The <strong>center</strong></li>
+        <li>The <strong>spread</strong></li>
+        <li>The <strong>shape</strong></li>
+        <li>and <strong>outliers</strong></li>
+      </ul>
+
+      <h3>Measure of center</h3>
+      <p>There are three widely accepted <strong>measures of center</strong>:</p>
+      <ul>
+        <li><strong>The mean</strong>, calculated as the sum of all of the values in our data set divided by how many data points we have:
+          <div class="text-center"><img src="imgs/mean.jpg" alt="Calculate the mean" width="162"></div>
+        </li>
+        <li>
+          <strong>The median</strong>, is a value that divides our data set such that 50% of the values are larger while the remaining 50% are smaller.
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Odd data count</th>
+                <th>Even data count</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="imgs/median01.png" alt="Median for odd data count" class="w-100"></td>
+                <td><img src="imgs/median02.png" alt="Median for even data count" class="w-100"></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>And the mode, the most common value in the data set.
+          <div class="text-center"><img src="imgs/mode.png" alt="Calculate the mode" height="100"></div>
+        </li>
+      </ul>
+
+      <h3>Measure of spread</h3>
+      <p>Measures of Spread are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:</p>
+      <ul>
+        <li>Range</li>
+        <li>Interquartile Range (IQR)</li>
+        <li>Standard Deviation</li>
+        <li>Variance</li>
+      </ul>
+
+      <h4>The 5 numbers summary</h4>
+      <p>The five number summary consist of 5 values:</p>
+      <ul>
+        <li><strong>Minimum</strong>: The smallest number in the dataset.</li>
+        <li><strong>Q1</strong>: The value such that 25% of the data fall below.</li>
+        <li><strong>Q2</strong>: The value such that 50% of the data fall below.</li>
+        <li><strong>Q3</strong>: The value such that 75% of the data fall below.</li>
+        <li><strong>Maximum</strong>: The largest value in the dataset.</li>
+      </ul>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Odd data count</th>
+            <th>Even data count</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="imgs/fivenum_summ01.png" alt="Five numbers summary for odd data count" class="w-100"></td>
+            <td><img src="imgs/fivenum_summ02.png" alt="Five numbers summary for even data count" class="w-100"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>The range</h4>
+      <p>The range is then calculated as the difference between the maximum and the minimum.</p>
+      <div class="text-center"><img src="imgs/range-formula.png" alt="Calculate the range"></div>
+
+      <h4>IQR - Interquartile Range</h4>
+      <p>The interquartile range is calculated as the difference between Q3 and Q1.</p>
+      <div class="text-center"><img src="imgs/iqr-formula.png" alt="Calculate the iqr"></div>
+
+      <h4>Standard Deviation and Variance</h4>
+      <p>The standard deviation is one of the most common measures of the spread of data. It is defined as the average distance of each observation from the mean.</p>
+      <div class="text-center"><img src="imgs/variance-formula.png" alt="Calculate the variance and standard deviation"></div>
+      <p>The <strong>variance</strong> is used to compare the spread of two different groups. A set of data with <u>higher variance</u> is <u>more spread out</u> than a dataset with lower variance. Be careful, there might be <strong>outliers</strong> that are increasing the variance, when most of the data are actually very close.</p>
+      <p>When data are related to money or the economy, <strong>higher variance</strong> (or standard deviation) is associated with <strong>higher risk</strong>.</p>
+      <p>When comparing the spread between two datasets, the units of each must be the same: The <strong>standard deviation</strong> is used more often, in practice than the variance, because it <strong>shares the units of the original dataset</strong>.</p>
+
+      <h3>Shapes</h3>
+      <p>From a histogram we can quickly identify the shape of our data. The distribution of our data is frequently associated with one of the three shapes:</p>
+      <ul>
+        <li>Right-skewed</li>
+        <li>Left-skewed</li>
+        <li>Symmetric (frequently normally distributed)</li>
+      </ul>
+      <div class="text-center"><img src="imgs/shapes.png" alt="Different shapes of data" class="w-75"></div>
+      <p>The <strong>mode</strong> of a distribution is essentially the <strong>tallest bar in a histogram</strong>. <u>There may be multiple modes</u> depending on the number of peaks in our histogram.</p>
+
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th>Shape</th>
+            <th>Mean vs. Median</th>
+            <th>Real World Applications</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Symmetric (Normal)</td>
+            <td>Mean equals Median</td>
+            <td>Height, Weight, Errors, Precipitation</td>
+          </tr>
+          <tr>
+            <td>Right-skewed</td>
+            <td>Mean greater than Median</td>
+            <td>Amount of drug remaining in a blood stream, Time between phone calls at a call center, Time until light bulb dies</td>
+          </tr>
+          <tr>
+            <td>Left-skewed</td>
+            <td>Mean less than Median</td>
+            <td>Grades as a percentage in many universities, Age of death, Asset price changes</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Outliers</h3>
+      <p>Outliers are points that fall very far from the rest of our data points. This influences measures like the mean and standard deviation much more than measures associated with the five number summary.</p>
+      <h4>Working with outliers</h4>
+      <p>When outliers are present we should consider the following points:</p>
+      <ul>
+        <li><strong>Noting they exist</strong> and they impact on summary statistics.</li>
+        <li>If <strong>typo</strong> - remove or fix</li>
+        <li><strong>Understanding why they exist</strong>, and the impact on questions we are trying to answer about our data.</li>
+        <li><strong>Reporting the 5 number summary values</strong> is often a better indication than measures like the mean and standard deviation when we have outliers.</li>
+        <li><strong>Be careful in reporting</strong>. Know how to ask the right questions.</li>
+      </ul>
+      <h4>Calculate outliers - Tukey's method</h4>
+      <p>Tukey’s rule says that the outliers are values more than 1.5 times the interquartile range from the quartiles — either below Q1 − 1.5IQR, or above Q3 + 1.5IQR.</p>
+      <div class="text-center"><img src="imgs/outliers-formula.png" alt="Outliers formula"></div>
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+  </main>
+
+</body>
+
+</html>
